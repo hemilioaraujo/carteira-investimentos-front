@@ -3,6 +3,7 @@
     <RouterLink to="/" style="margin-right: 1rem">Home</RouterLink>
     <RouterLink to="/ativos" style="margin-right: 1rem">Ativos</RouterLink>
     <RouterLink to="/corretoras" style="margin-right: 1rem">Corretoras</RouterLink>
+    <RouterLink to="/tiposOrdens" style="margin-right: 1rem">Tipos de Ordens</RouterLink>
   </nav>
 </template>
 
