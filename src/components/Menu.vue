@@ -5,6 +5,7 @@
     <RouterLink to="/corretoras" class="nav__item">Corretoras</RouterLink>
     <RouterLink to="/tiposOrdens" class="nav__item">Tipos de Ordens</RouterLink>
     <RouterLink to="/transacoes" class="nav__item">Transações</RouterLink>
+    <RouterLink to="/relatorios" class="nav__item">Relatórios</RouterLink>
   </nav>
 </template>
 

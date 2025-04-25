@@ -4,6 +4,7 @@ import AtivosView from '../views/AtivosView.vue'
 import CorretorasView from '@/views/CorretorasView.vue'
 import TiposOrdensView from '../views/TiposOrdensView.vue'
 import TransacoesView from '@/views/TransacoesView.vue'
+import RelatoriosView from '@/views/RelatoriosView.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomeView },
@@ -11,6 +12,7 @@ const routes = [
   { path: '/corretoras', name: 'corretoras', component: CorretorasView },
   { path: '/tiposOrdens', name: 'tiposOrdens', component: TiposOrdensView },
   { path: '/transacoes', name: 'transacoes', component: TransacoesView },
+  { path: '/relatorios', name: 'relatorios', component: RelatoriosView },
 ]
 
 const router = createRouter({
