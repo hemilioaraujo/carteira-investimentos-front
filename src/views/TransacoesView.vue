@@ -3,7 +3,9 @@
     <Menu />
     <h2>Lista de Transações</h2>
 
-    <button class="m-3" @click="formVisible = !formVisible" v-if="!formVisible">+ Nova Transação</button>
+    <button class="m-3" @click="formVisible = !formVisible" v-if="!formVisible">
+      + Nova Transação
+    </button>
 
     <form @submit.prevent="salvar" class="form" v-if="formVisible">
       <select v-model="form.ativo_id" required>
@@ -42,6 +44,7 @@
         placeholder="Valor Total"
         required
       />
+      <input v-model="form.data" type="date" required />
       <button type="submit">{{ form.id ? 'Atualizar' : 'Criar' }}</button>
       <button type="button" @click="resetForm">Cancelar</button>
     </form>
